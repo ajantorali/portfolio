@@ -1,0 +1,39 @@
+@media screen and (max-width: 745px) {
+  .main-nav {
+    display: block;
+  }
+  .navbar{
+    text-align: center;
+}
+  .search {
+    font-size: 12px;
+  }
+  .main-nav {
+    height: 300px;
+  }
+  .nav_list ul li {
+    margin: 25px 20px;
+  }
+  .nav_list ul {
+    display: block;
+  }
+  .right-side{
+    display: block;
+  }
+  .nav_list ul li:hover{
+    color: coral;
+  }
+  .icon{
+    display: block;
+  }
+  .active1{
+    display: none;
+  }
+  .active2{
+    height: 80px;
+  }
+  .active3{
+    display: none;
+  }
+
+}

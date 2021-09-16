@@ -1,0 +1,32 @@
+.imgs img{
+    width: 150px;
+}
+.lefttech{
+    background-color: white;
+    box-shadow: 0px 0px 7px grey;
+    align-items: center;
+    padding: 30px;
+    transition: 0.1s;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-tech{
+    padding: 50px;
+}
+.t-1{
+    flex-direction: row-reverse;
+}
+.t-3{
+    flex-direction: row-reverse;
+}
+.t-2{
+    flex-direction: row-reverse;
+}
+.t-4{
+    flex-direction: row-reverse;
+}
+.lefttech:hover{
+    background-color: grey;
+    color: white;
+}

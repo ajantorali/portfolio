@@ -1,0 +1,6 @@
+.ftr{
+    padding: 10px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+}

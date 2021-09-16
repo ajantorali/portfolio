@@ -1,0 +1,33 @@
+.cards{
+    display: flex;
+    padding: 10px;
+}
+.crd{
+    padding: 5px;
+    margin: 5px;
+    background: white;
+    color: grey;
+    transition: 0.5s;
+    box-shadow: 0px 0px 7px blue;
+}
+.crd:hover{
+    background-color: grey;
+    color: white;
+    box-shadow: 0px 0px 10px blue;
+}
+.card-1:hover{
+    box-shadow: 0px 0px 10px rgb(228, 196, 16);
+    border-radius: 20px;
+}
+.card-2:hover{
+    box-shadow: 0px 0px 10px rgb(2, 163, 82);
+    border-radius: 0px 15px;
+}
+.card-3:hover{
+    border-radius: 0px 0px 18px;
+    box-shadow: 0px 0px 10px rgb(209, 44, 3);
+}
+.card-4:hover{
+    box-shadow: 0px 0px 10px rgb(255, 0, 242);
+    border-radius: 0px 0px 0px 20px;
+}

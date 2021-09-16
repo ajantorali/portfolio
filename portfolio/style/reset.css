@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2fafa;
+}
+li{
+    list-style: none;
+}
+a{
+    transition: 0.4s;
+    text-decoration: none;
+    color: white;
+}
+
+.Heading{
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+}
+.lrn{
+    cursor: pointer;
+    padding: 6px 21px;
+    margin-top: 19px;
+    border: 2px blue;
+    border-radius: 20px;
+    background-color: greenyellow;
+}

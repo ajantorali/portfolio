@@ -1,0 +1,80 @@
+.main-nav {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  height: 40px;
+  background-color: black;
+  display: flex;
+}
+.main-nav {
+  justify-content: space-between;
+}
+.nav_list ul {
+  padding: 10px;
+  display: flex;
+}
+.search {
+  width: 150px;
+  margin: 5px 10px;
+  height: 28px;
+  border: none;
+  padding: 5px 20px;
+  background-color: #eee;
+  border-radius: 30px;
+  transition: width 0.4s ease-in-out;
+}
+.search:focus {
+  outline: none;
+  width: 200px;
+}
+.text {
+  font-style: bold;
+  text-transform: uppercase;
+  color: white;
+}
+.social-btn {
+  color: white;
+  margin: 5px 5px;
+  height: 28px;
+  border: none;
+  padding: 5px 20px;
+  background-color: red;
+  border-radius: 50px;
+}
+.nav_list ul li {
+  margin: 0px 20px;
+}
+
+a:hover {
+  font-size: 14px;
+  color: #ca91ff;
+}
+.right-side {
+  display: flex;
+}
+.active {
+  color: rgb(0, 255, 0);
+}
+
+.icon {
+  display: none;
+  position: absolute;
+  right: 10px;
+  color: white;
+  background-color: white;
+  top: 8px;
+}
+.icon1 {
+    display: none;
+    position: absolute;
+    right: 10px;
+    color: white;
+    background-color: white;
+    top: 10px;
+}
+}
+#burger {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+}
